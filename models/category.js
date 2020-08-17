@@ -20,5 +20,6 @@ function validateCategory(category) {
 }
 
 exports.categorySchema = categorySchema;
+
 exports.Category = Category; 
 exports.validateCategory = validateCategory;
