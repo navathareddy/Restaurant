@@ -17,7 +17,7 @@ process.exit(1)
 }
 
 mongoose
-  .connect("mongodb://localhost:27017/Restaurant", {
+  .connect(restaurant_db, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

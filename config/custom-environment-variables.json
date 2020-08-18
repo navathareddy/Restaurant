@@ -1,5 +1,6 @@
 {
 
-    "jwtPrivateKey":"restaurant_jwtPrivateKey"
+    "jwtPrivateKey":"restaurant_jwtPrivateKey",
+    "db":"restaurant_db"
 }
 
