@@ -15,9 +15,9 @@ if(!config.get('jwtPrivateKey')){
 console.error('Fatal Error:jwtPrivateKey is not defined')
 process.exit(1)
 }
-
+var url = process.env.MONGOLAB_URI;
 mongoose
-  .connect(restaurant_db, {
+  .connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
