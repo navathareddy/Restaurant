@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   const categories = await Category.find().sort("category_Name");
+  console.log("hi", categories);
   res.send(categories);
 });
 

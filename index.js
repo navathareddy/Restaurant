@@ -17,7 +17,7 @@ process.exit(1)
 }
 
 mongoose
-  .connect("mongodb://<dbuser>:<dbpassword>@ds059205.mlab.com:59205/heroku_2dc8bwh3", {
+  .connect("mongodb://localhost:27017/Restaurant", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
